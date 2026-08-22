@@ -1,0 +1,23 @@
+# 本机配置（含个人信息），不提交
+scripts/config.json
+
+# 运行产生的数据文件
+scripts/boss_applied_ids.json
+scripts/job51_applied_ids.json
+scripts/boss_chat_replied.json
+logs/
+reports/
+*.log
+*.md.log
+
+# 日志与报表
+**/*投递日志.md
+**/*聊天日志.md
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器
+.vscode/
+.idea/
